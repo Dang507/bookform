@@ -13,6 +13,7 @@ namespace VuBookStorev5
 {
     public partial class FrmMain : Form
     {
+        
         public FrmMain()
         {
             InitializeComponent();
@@ -33,8 +34,7 @@ namespace VuBookStorev5
 
         private void sáchToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            Form frmBookDetail = new FrmBookDetail();
-            frmBookDetail.Show();
+           
         }
 
         private void tìmKiếmToolStripMenuItem_Click(object sender, EventArgs e)
@@ -73,7 +73,19 @@ namespace VuBookStorev5
 
         private void nhapBookTitleToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form frmTL = new FrmBookTitle();
+            frmTL.Show();
+        }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void nhapsachToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmBookDetail = new FrmBookDetail();
+            frmBookDetail.Show();
         }
     }
 }

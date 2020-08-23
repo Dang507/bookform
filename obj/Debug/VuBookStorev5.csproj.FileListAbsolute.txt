@@ -26,7 +26,6 @@ E:\PROJECTS\VuBookStoreNETv5\bin\Debug\EntityFramework.dll
 E:\PROJECTS\VuBookStoreNETv5\bin\Debug\EntityFramework.SqlServer.dll
 E:\PROJECTS\VuBookStoreNETv5\bin\Debug\EntityFramework.xml
 E:\PROJECTS\VuBookStoreNETv5\bin\Debug\EntityFramework.SqlServer.xml
-E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.csprojAssemblyReference.cache
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreate.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev2.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev3.resources
@@ -37,7 +36,6 @@ E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.csproj.CopyComplete
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.exe
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.pdb
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev4.resources
-E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Form1.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.FrmtAuthorSearch.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev5.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.FrmMain.resources
@@ -45,3 +43,10 @@ E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.FrmBookDetail.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.FrmNxb.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.FrmUsers.resources
 E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Nhap.FrmNhapNxb.resources
+E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.csprojAssemblyReference.cache
+E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev6.resources
+E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev61.resources
+E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev7.resources
+E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev8.resources
+E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Migrations.InitialCreatev9.resources
+E:\PROJECTS\VuBookStoreNETv5\obj\Debug\VuBookStorev5.Nhap.FrmBookTitle.resources

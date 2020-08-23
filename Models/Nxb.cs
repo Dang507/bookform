@@ -7,14 +7,12 @@ using System.Threading.Tasks;
 
 namespace VuBookStorev5.Models
 {
-    public partial class Nxb
+    public  class Nxb
     {
         [Key]
-
-
         public string NxbID { get; set; }
-        
-
         public string NxbName { get; set; }
+      
+       
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -43,8 +44,13 @@
             this.tìmKiếmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tìmKiếmTheoTácGiảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tìmKiếmTheoNhàXuấtBảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nxbBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nxbIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nxbNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nxbBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -94,10 +100,15 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 110);
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nxbIDDataGridViewTextBoxColumn,
+            this.nxbNameDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.nxbBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(47, 106);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(531, 311);
+            this.dataGridView1.Size = new System.Drawing.Size(242, 311);
             this.dataGridView1.TabIndex = 16;
             // 
             // menuStrip1
@@ -108,7 +119,7 @@
             this.tìmKiếmToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(438, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(465, 24);
             this.menuStrip1.TabIndex = 17;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -167,11 +178,38 @@
             this.tìmKiếmTheoNhàXuấtBảnToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
             this.tìmKiếmTheoNhàXuấtBảnToolStripMenuItem.Text = "Tìm kiếm theo nhà xuất bản";
             // 
+            // nxbBindingSource
+            // 
+            this.nxbBindingSource.DataSource = typeof(VuBookStorev5.Models.Nxb);
+            // 
+            // nxbIDDataGridViewTextBoxColumn
+            // 
+            this.nxbIDDataGridViewTextBoxColumn.DataPropertyName = "NxbID";
+            this.nxbIDDataGridViewTextBoxColumn.HeaderText = "NxbID";
+            this.nxbIDDataGridViewTextBoxColumn.Name = "nxbIDDataGridViewTextBoxColumn";
+            // 
+            // nxbNameDataGridViewTextBoxColumn
+            // 
+            this.nxbNameDataGridViewTextBoxColumn.DataPropertyName = "NxbName";
+            this.nxbNameDataGridViewTextBoxColumn.HeaderText = "NxbName";
+            this.nxbNameDataGridViewTextBoxColumn.Name = "nxbNameDataGridViewTextBoxColumn";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(378, 44);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 44);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Hiển thị";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmNxb
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(438, 335);
+            this.ClientSize = new System.Drawing.Size(465, 335);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
@@ -185,6 +223,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nxbBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,5 +245,9 @@
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmTheoTácGiảToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmTheoNhàXuấtBảnToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nxbIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nxbNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource nxbBindingSource;
+        private System.Windows.Forms.Button button1;
     }
 }

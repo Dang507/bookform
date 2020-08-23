@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace VuBookStorev5.Models
 {
-    public partial class Users
+    public  class Users
     {
         [Key]
-
-
-        public string UserID { get; set; }
         [Required]
+        public string UserID { get; set; }
+       
         public string UserName { get; set; }
 
 
@@ -28,6 +27,7 @@ namespace VuBookStorev5.Models
 
 
         public string UserEmail { get; set; }
+       
 
 
 

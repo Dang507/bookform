@@ -10,7 +10,7 @@
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(VuBookStorev5.BookDBContext context)
@@ -117,7 +117,19 @@
                 UserPhone = int.Parse("098225624"),
                 UserEmail = "vuvy@gmail.com",
                 Zipcode = int.Parse("0123996543")
-            }
+            },
+             new Users()
+             {
+
+                 UserID = "4",
+                 UserName = "Văn Văn",
+                 UngayDK = DateTime.Parse("7/5/2020"),
+                 UngayHetHan = DateTime.Parse("20/6/2020"),
+                 UserPhone = int.Parse("098225624"),
+                 UserEmail = "vavy@gmail.com",
+                 Zipcode = int.Parse("0123912344")
+             }
+
             );
             context.Nxbs.AddOrUpdate(a => a.NxbID, new Nxb()
             {

@@ -79,11 +79,25 @@
       <DependentUpon>Book4DataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="BookContext.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Migrations\202008210609261_InitialCreatev6.cs" />
+    <Compile Include="Migrations\202008210609261_InitialCreatev6.designer.cs">
+      <DependentUpon>202008210609261_InitialCreatev6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Migrations\202008210621415_InitialCreatev61.cs" />
+    <Compile Include="Migrations\202008210621415_InitialCreatev61.designer.cs">
+      <DependentUpon>202008210621415_InitialCreatev61.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008210716210_InitialCreatev7.cs" />
+    <Compile Include="Migrations\202008210716210_InitialCreatev7.designer.cs">
+      <DependentUpon>202008210716210_InitialCreatev7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008211443021_InitialCreatev8.cs" />
+    <Compile Include="Migrations\202008211443021_InitialCreatev8.designer.cs">
+      <DependentUpon>202008211443021_InitialCreatev8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202008211501486_InitialCreatev9.cs" />
+    <Compile Include="Migrations\202008211501486_InitialCreatev9.designer.cs">
+      <DependentUpon>202008211501486_InitialCreatev9.cs</DependentUpon>
     </Compile>
     <Compile Include="Nhap\FrmBookDetail.cs">
       <SubType>Form</SubType>
@@ -156,14 +170,29 @@
       <DependentUpon>FrmUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="TestModels.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202008210609261_InitialCreatev6.resx">
+      <DependentUpon>202008210609261_InitialCreatev6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008210621415_InitialCreatev61.resx">
+      <DependentUpon>202008210621415_InitialCreatev61.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008210716210_InitialCreatev7.resx">
+      <DependentUpon>202008210716210_InitialCreatev7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008211443021_InitialCreatev8.resx">
+      <DependentUpon>202008211443021_InitialCreatev8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008211501486_InitialCreatev9.resx">
+      <DependentUpon>202008211501486_InitialCreatev9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nhap\FrmBookDetail.resx">
       <DependentUpon>FrmBookDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhap\FrmBookTitle.resx">
+      <DependentUpon>FrmBookTitle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nhap\FrmNhapNxb.resx">
       <DependentUpon>FrmNhapNxb.cs</DependentUpon>

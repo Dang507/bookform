@@ -21,5 +21,12 @@ namespace VuBookStorev5
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BookDBContext bookdb = new BookDBContext();
+            var boo = from NxbID in bookdb.Nxbs select NxbID;
+            dataGridView1.DataSource = boo.ToList();
+        }
     }
 }

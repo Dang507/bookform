@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace VuBookStorev5.Models
 {
-    public partial class BookTitle
+    public  class BookTitle
     {
         [Key]
 
-
+        [Required]
         public string BT_ID { get; set; }
-
-
         public string BT_Name { get; set; }
+     
     }
 }
